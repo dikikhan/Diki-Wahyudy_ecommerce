@@ -1,0 +1,160 @@
+2023-10-24T04:12:29+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\laragon\www\wordpress/wp-admin/includes/plugin.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php:23
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\pinterest-for-woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php(90): require()
+#1 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(155): Automattic\Jetpack\Autoloader\jpc906808dc314c03a73980905d9f9fece\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#3 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#4 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\Composer\Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#5 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#6 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#7 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init('')
+#8 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\wordpress\wp-settings.php(495): do_action('plugins_loaded')
+#11 C:\laragon\www\wordpress\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wordpress\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\wordpress\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown di C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php pada baris 23
+
+2023-10-24T04:14:30+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\laragon\www\wordpress/wp-admin/includes/plugin.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php:23
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\pinterest-for-woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php(90): require()
+#1 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(155): Automattic\Jetpack\Autoloader\jpc906808dc314c03a73980905d9f9fece\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#3 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#4 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\Composer\Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#5 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#6 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#7 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init('')
+#8 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\wordpress\wp-settings.php(495): do_action('plugins_loaded')
+#11 C:\laragon\www\wordpress\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wordpress\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\wordpress\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown di C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php pada baris 23
+
+2023-10-24T04:15:55+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\laragon\www\wordpress/wp-admin/includes/plugin.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php:23
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\pinterest-for-woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php(90): require()
+#1 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(155): Automattic\Jetpack\Autoloader\jpc906808dc314c03a73980905d9f9fece\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#3 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#4 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\Composer\Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#5 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#6 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#7 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init('')
+#8 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\wordpress\wp-settings.php(495): do_action('plugins_loaded')
+#11 C:\laragon\www\wordpress\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wordpress\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\wordpress\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown di C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php pada baris 23
+
+2023-10-24T04:16:01+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\laragon\www\wordpress/wp-admin/includes/plugin.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php:23
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\pinterest-for-woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php(90): require()
+#1 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(155): Automattic\Jetpack\Autoloader\jpc906808dc314c03a73980905d9f9fece\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#3 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#4 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\Composer\Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#5 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#6 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#7 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init('')
+#8 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\wordpress\wp-settings.php(495): do_action('plugins_loaded')
+#11 C:\laragon\www\wordpress\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wordpress\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\wordpress\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown di C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php pada baris 23
+
+2023-10-24T04:16:10+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\laragon\www\wordpress/wp-admin/includes/plugin.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php:23
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\pinterest-for-woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php(90): require()
+#1 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(155): Automattic\Jetpack\Autoloader\jpc906808dc314c03a73980905d9f9fece\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#3 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#4 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\Composer\Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#5 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#6 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#7 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init('')
+#8 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\wordpress\wp-settings.php(495): do_action('plugins_loaded')
+#11 C:\laragon\www\wordpress\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wordpress\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\wordpress\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown di C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php pada baris 23
+
+2023-10-24T04:16:43+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\laragon\www\wordpress/wp-admin/includes/plugin.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php:23
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\pinterest-for-woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php(90): require()
+#1 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(155): Automattic\Jetpack\Autoloader\jpc906808dc314c03a73980905d9f9fece\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#3 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#4 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\Composer\Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#5 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#6 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#7 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init('')
+#8 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\wordpress\wp-settings.php(495): do_action('plugins_loaded')
+#11 C:\laragon\www\wordpress\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wordpress\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\wordpress\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown di C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php pada baris 23
+
+2023-10-24T04:16:54+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\laragon\www\wordpress/wp-admin/includes/plugin.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php:23
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\pinterest-for-woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php(90): require()
+#1 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(155): Automattic\Jetpack\Autoloader\jpc906808dc314c03a73980905d9f9fece\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#3 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#4 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\Composer\Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#5 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#6 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#7 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init('')
+#8 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\wordpress\wp-settings.php(495): do_action('plugins_loaded')
+#11 C:\laragon\www\wordpress\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wordpress\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\wordpress\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown di C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php pada baris 23
+
+2023-10-24T04:17:08+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\laragon\www\wordpress/wp-admin/includes/plugin.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php:23
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\pinterest-for-woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php(90): require()
+#1 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(155): Automattic\Jetpack\Autoloader\jpc906808dc314c03a73980905d9f9fece\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#3 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#4 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\Composer\Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#5 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#6 C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#7 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init('')
+#8 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#9 C:\laragon\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\wordpress\wp-settings.php(495): do_action('plugins_loaded')
+#11 C:\laragon\www\wordpress\wp-config.php(96): require_once('C:\\laragon\\www\\...')
+#12 C:\laragon\www\wordpress\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#13 C:\laragon\www\wordpress\wp-blog-header.php(13): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown di C:\laragon\www\wordpress\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php pada baris 23
+
